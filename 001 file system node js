@@ -1,0 +1,5 @@
+const fs = require('fs');
+
+fs.writeFileSync('test.txt', 'this is written by node js');
+
+fs.unwatchFile('test.txt', 'this is append message');
